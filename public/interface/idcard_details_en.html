@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> card details ادخال البيانات </title>
+    <link href="img/logo.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/simple-lightbox.min.css" rel="stylesheet">
+    <link href="css/nice-select.css" rel="stylesheet">
+    <link href="css/intlTelInput.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/style-en.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+     <!--start loader section-->
+     <div class="loader-container" id="loader-container">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+     </div>
+
+     <!--sidebar-->
+    <div class="mob-overlay"></div>
+    <div class="sidebar-wrapper">
+       <div class="container">
+            <div id="burgerBtn"></div>
+            <ul class="navigation desktop__nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item item_has_child">
+                    <a href="guarantee.html" class="nav-link dropdown-toggle"> الكفالات <i class="fa-solid fa-plus"></i> </a>
+                    <ul class="dropdown__Firstmenu">
+                        <li class="nav-item item_has_child"> 
+                            <a href="guarantee.html" class="nav-link dropdown-toggle"> الكفالات 2 <i class="fa-solid fa-plus"></i> </a>
+                            <ul class="dropdown__Firstmenu depth__second">
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">  عن غرس </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link"> المشاريع الانشائية </a>
+                </li>
+                <li class="nav-item">
+                    <a href="calculator.html" class="nav-link"> حاسبة الزكاة </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">  اتصل بنا </a>
+                </li>
+                <li class="nav-item">
+                    <a href="idcard_details.html" class="nav-link"> english </a>
+                </li>
+            </ul>
+            <a href="login.html" class="main__btn medium__btn hvr-bounce-to-right mXMD__auto" data-toggle="modal" data-target="#loginModal">  تسجيل الدخول </a>
+       </div>
+    </div>
+
+     <!--start header section-->
+     <header>
+         <div class="container header__container pxLG-0">
+            <a href="index.html" class="my_logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navigation desktop__nav d__mob__none">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item item_has_child">
+                    <a href="guarantee.html" class="nav-link dropdown-toggle"> الكفالات <i class="fa-solid fa-plus"></i> </a>
+                    <ul class="dropdown__Firstmenu">
+                        <li class="nav-item item_has_child"> 
+                            <a href="guarantee.html" class="nav-link dropdown-toggle">  الكفالات 2 <i class="fa-solid fa-plus"></i></a>
+                            <ul class="dropdown__Firstmenu depth__second">
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="guarantee.html" class="nav-link"> الكفالات 2 </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">  عن غرس </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link"> المشاريع الانشائية </a>
+                </li>
+                <li class="nav-item">
+                    <a href="calculator.html" class="nav-link"> حاسبة الزكاة </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">  اتصل بنا </a>
+                </li>
+                <li class="nav-item">
+                    <a href="idcard_details.html" class="nav-link"> english </a>
+                </li>
+            </ul>
+            <a href="#" class="main__btn medium__btn hvr-bounce-to-right d__mob__none" data-toggle="modal" data-target="#loginModal">  تسجيل الدخول </a>
+            <button class="navbar_toggler" type="button" id="sidebar_toggler">
+               <i class="fa-solid fa-bars"></i>
+           </button>
+         </div>
+     </header>
+
+     <!-- login modal-->
+    <div class="modal loginModal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">      
+                    <img src="img/si.png" alt="" class="check__thumb">
+                   <form action="" class="loginV__form">
+                        <h3 class="loginModal_title"> تسجيل الدخول </h3>
+                        <p class="logintModal_des"> برجاء ادخال معلوماتك لتسجيل حسابك معنا في غرس </p>
+                        <label for="email" class="login__label"> البريد الاكتروني </label>
+                        <input type="email" class="loginV__input" placeholder=" البريد الاكتروني ">
+                        <label for="password" class="login__label">  كلمة المرور </label>
+                        <input type="password" class="loginV__input" placeholder="  كلمة المرور ">
+                        <a href="#" class="login__btn"> تسجيل الدخول </a>
+                        <p class="have__account"> ليس لديك حساب معنا؟ <a href="#" class="account__link" data-toggle="modal" data-target="#rigestModal" data-dismiss="modal"> انشاء حساب جديد </a>   </p>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rigest modal-->
+    <div class="modal loginModal fade" id="rigestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">      
+                    <img src="img/si.png" alt="" class="check__thumb">
+                <form action="" class="loginV__form">
+                        <h3 class="loginModal_title"> إنشاء حساب جديد </h3>
+                        <p class="logintModal_des"> برجاء ادخال معلوماتك لتسجيل حسابك معنا في غرس </p>
+                        <div class="form__row">
+                            <div class="col-12 col-lg-6">
+                                <label for="name" class="login__label">  الاسم </label>
+                                <input type="text" class="loginV__input" placeholder=" الاسم الأول ">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="name" class="login__label">  الاسم </label>
+                                <input type="text" class="loginV__input" placeholder=" الاسم الأخير ">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="phone" class="login__label">  رقم الهاتف </label>
+                                <input type="tel" class="loginV__input" id="phone">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="email" class="login__label">  البريد الالكتروني </label>
+                                <input type="email" class="loginV__input" placeholder=" البريد الالكتروني">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="phone" class="login__label"> كلمة المرور </label>
+                                <input type="text" class="loginV__input" >
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="email" class="login__label"> تأكيد كلمة المرور </label>
+                                <input type="email" class="loginV__input">
+                            </div>
+                        </div>
+                        <a href="#" class="login__btn">  إنشاء حساب جديد </a>
+                        <p class="have__account"> هل لديك حساب معنا؟ <a href="#" class="account__link" data-toggle="modal" data-target="#loginModal" data-dismiss="modal"> تسجيل الدخول </a>   </p>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--start innerTop section-->
+    <section class="innerTop_section"> 
+        <div class="container pxLG-0">
+            <h3 class="innerTop__title"> إهداء تبرع </h3>
+        </div>
+    </section>
+
+    <!--start orphans section-->
+    <section class="orphans_section mainRelative_section">
+        <div class="container pxLG-0">
+            <div class="searchResults__wrap">
+                <h3 class="orphans__title"> 3.ادخال بيانات </h3>
+                <div class="row guarantee__inRow">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="gurntDEs__card">
+                            <img src="img/id.png" alt="" class="GuarntID__thumb">
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="innerForm__row">
+                            <div class="col-12">
+                                <label for="name1" class="profileV__label">  الاسم </label>
+                                <input type="text" class="profileV__input" placeholder=" ابراهيم محمد حسن ">
+                            </div>
+                            <div class="col-12">
+                                <label for="name2" class="profileV__label">  اسم المرسل له الاهداء </label>
+                                <input type="text" class="profileV__input" placeholder=" أحمد اسامة ">
+                            </div>
+                            <div class="col-12">
+                                <label for="name1" class="profileV__label">  رقم الهاتف </label>
+                                <input type="text" class="profileV__input" placeholder=" 0152 6856 8999 555 ">
+                            </div>
+                            <div class="col-12">
+                                <label for="name2" class="profileV__label">  البريد الالكتروني </label>
+                                <input type="text" class="profileV__input" placeholder=" mail@domain.net ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnPrvNxt_wrapper">
+                    <a href="choose_project.html" class="previous__btn  hvr-bounce-to-right mbSM__20">  السابق </a>
+                    <a href="#" class="contSubmit__btn subMidBtn_width my-0"> اهداء الان </a>
+                </div>
+            </div>
+        </div>
+        <div class="container inovIcon_container innerPges_containerInv pxLG-0">
+            <div class="inovIcon_conOverlay"></div>
+            <div class="row cardFlex__end">
+                <div class="col-12 col-md-8 col-lg-5">
+                    <div class="innovForm__card" id="innovForm__card">
+                        <ul class="nav nav-pills allInovation__pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#oneInoV__wrapper" data-toggle="tab"> التبرع لمرة واحدة </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#allInov__wrapper" data-toggle="tab"> تبرع دوري </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content"  id="allInovation__tabs">
+                            <div class="curr__wrapper tab-pane fade in active show" role="tabpanel" id="oneInoV__wrapper">
+                                <form action="" class="innoVchs__form">
+                                    <h3 class="innoV_title"> اختر المبلغ </h3>
+                                    <div class="priceFlex_wrap">
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 700$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 2500$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money" checked>
+                                            <span class="myNew_Dgradio"> 5,000$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 190$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 250$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 450$ </span>
+                                        </div>
+                                    </div>
+                                    <div class="innVForm_Group">
+                                        <input type="text" class="innVForm_input" placeholder="5,000">
+                                        <span class="abs__dollar">usd</span>
+                                    </div>
+                                    <select name="category" class="innVForm_select nice-select">
+                                        <option value=" اختر التصنيف " selected> اختر التصنيف </option>
+                                        <option value=" اختر التصنيف "> اختر التصنيف </option>
+                                        <option value=" اختر التصنيف "> اختر التصنيف </option>
+                                    </select>
+                                    <button type="submit" class="innvSubmit__btn"> تبرع الان </button>
+                                </form>
+                            </div>
+                            <div class="curr__wrapper tab-pane fade" role="tabpanel" id="allInov__wrapper">
+                                <form action="" class="innoVchs__form">
+                                    <h3 class="innoV_title"> اختر المبلغ </h3>
+                                    <div class="priceFlex_wrap">
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 700$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 2500$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money" checked>
+                                            <span class="myNew_Dgradio"> 5,000$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 190$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 250$ </span>
+                                        </div>
+                                        <div class="HDVcheck__label">
+                                            <input type="radio" class="HDnCh_radio" name="money">
+                                            <span class="myNew_Dgradio"> 450$ </span>
+                                        </div>
+                                    </div>
+                                    <div class="innVForm_Group">
+                                        <input type="text" class="innVForm_input" placeholder="5,000">
+                                        <span class="abs__dollar">usd</span>
+                                    </div>
+                                    <select name="category" class="innVForm_select nice-select">
+                                        <option value=" اختر التصنيف " selected> اختر التصنيف </option>
+                                        <option value=" اختر التصنيف "> اختر التصنيف </option>
+                                        <option value=" اختر التصنيف "> اختر التصنيف </option>
+                                    </select>
+                                    <button type="submit" class="innvSubmit__btn"> تبرع الان </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open__menu innerOpenBtn">
+                <img src="img/heart.png" alt="" class="inoV_icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- login modal-->
+    <div class="modal loginModal fade" id="guarantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="img/si.png" alt="" class="check__thumb">
+                <div class="modal-body">         
+                <form action="" class="loginV__form">
+                        <h3 class="loginModal_title"> تفاصيل إهداء الكفالة </h3>
+                        <p class="logintModal_des"> برجاء ادخال كل معلومات الاهداء واكمل الدفع الالكتروني </p>
+                        <div class="form__row">
+                        <div class="col-12 col-lg-6">
+                            <label for="name" class="login__label">  الاسم </label>
+                            <input type="text" class="loginV__input" placeholder=" الاسم الأول ">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="name" class="login__label">  الاسم </label>
+                            <input type="text" class="loginV__input" placeholder=" الاسم الأخير ">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="phone" class="login__label">  رقم الهاتف </label>
+                            <input type="tel" class="loginV__input" id="phone2">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="email" class="login__label">  البريد الالكتروني </label>
+                            <input type="email" class="loginV__input" placeholder=" البريد الالكتروني">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="phone" class="login__label">  إهداء باسم </label>
+                            <select name="category" class="profileV__input nice-select">
+                                <option value=" شخص " selected> شخص </option>
+                                <option value=" شخص "> شخص </option>
+                                <option value=" شخص "> شخص </option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="name" class="login__label">  الاسم </label>
+                            <input type="text" class="loginV__input" placeholder=" الاسم الأخير ">
+                        </div>
+                    </div>
+                        <a href="#" class="login__btn"  data-toggle="modal" data-target="#paymentModal"> التالي </a>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- payment modal-->
+    <div class="modal loginModal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="img/si.png" alt="" class="check__thumb">
+                <div class="modal-body">      
+                    <form action="" class="loginV__form">
+                        <h3 class="loginModal_title"> اختر طريقة الدفع </h3>
+                        <p class="logintModal_des"> برجاء ادخال كل معلومات الاهداء واكمل الدفع الالكتروني </p>
+
+                        <ul class="nav nav-pills Gurpayment__pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#payOne__wrapper" data-toggle="tab"> 
+                                    <span class="showG__radio"></span>
+                                    <span> الدفع عبر K-Net </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#visitM__wrapper" data-toggle="tab"> 
+                                    <span class="showG__radio"></span>
+                                    <span> طلب زيارة مندوب </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#branch__wrapper" data-toggle="tab"> 
+                                    <span class="showG__radio"></span>
+                                    <span> استقطاع عبر المقر </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content"  id="allGurntPay__tabs">
+                            <div class="curr__wrapper tab-pane fade in active show" role="tabpanel" id="payOne__wrapper">
+                                <div class="form__row">
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  رقم الكارت </label>
+                                        <input type="text" class="loginV__input">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  البنك </label>
+                                        <input type="text" class="loginV__input">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  الاسم </label>
+                                        <input type="text" class="loginV__input" placeholder=" الاسم الأول ">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  الاسم </label>
+                                        <input type="text" class="loginV__input" placeholder=" الاسم الأخير ">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  رقم الكارت </label>
+                                        <input type="text" class="loginV__input">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="name" class="login__label">  البنك </label>
+                                        <input type="text" class="loginV__input">
+                                    </div>
+                                </div>
+                                <button class="login__btn" type="submit"> ارسال الاهداء </button>
+                            </div>
+                            <div class="curr__wrapper tab-pane fade" role="tabpanel" id="visitM__wrapper">
+                                <h3 class="phones_title"> أرقام مراكز التواصل </h3>
+                                <div class="contNUM__flex">
+                                    <img src="img/call2.svg" alt="" class="phonTW_icon">
+                                    <a href="#"> +966 920033028 </a>
+                                </div>
+                                <div class="contNUM__flex">
+                                    <img src="img/call2.svg" alt="" class="phonTW_icon">
+                                    <a href="#"> +966 920033028 </a>
+                                </div>
+                                <button class="login__btn mtp__40" type="submit"> تم </button>
+                            </div>
+                            <div class="curr__wrapper tab-pane fade" role="tabpanel" id="branch__wrapper">
+                                <div class="form__row">
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="phones_title"> أرقام مراكز التواصل </h3>
+                                        <div class="contNUM__flex">
+                                            <img src="img/call2.svg" alt="" class="phonTW_icon">
+                                            <a href="#"> +966 920033028 </a>
+                                        </div>
+                                        <div class="contNUM__flex">
+                                            <img src="img/call2.svg" alt="" class="phonTW_icon">
+                                            <a href="#"> +966 920033028 </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="phones_title"> العنوان ومواعيد العمل</h3>
+                                        <p class="addressGUr_des"> الفردوس قطعة 11 شارع 5 رقم المنزل 4 </p>
+                                    </div>
+                                </div>
+                                <button class="login__btn mtp__40" type="submit"> تم </button>
+                            </div>
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--start joinTeam section-->
+    <section class="joinTeam_section"  id="discover_section">
+        <div class="container pxLG-0">
+            <div class="row ">
+                <div class="col-12 col-lg-9">
+                    <div class="joinFlex">
+                        <img src="img/join.png" alt="" class="join_thumb">
+                        <h3> انضم لمنظومة غرس الان كمتطوع وساعدنا في نشر السعادة </h3>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a href="#about_sectin" class="main__btn wide__btn hvr-bounce-to-left"> المزيد عن غرس </a>
+                </div>
+            </div>
+        </div>
+        <img src="img/j.png" alt="" class="absBack_img">
+    </section>
+
+    <!--start footer section-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="container pxLG-0">
+                <div class="row">
+                    <div class="col-6 col-lg-2">
+                        <div class="footer__col">
+                            <h3 class="footer_title"> بوابة غرس </h3>
+                            <ul class="ftLinks_list">
+                                <li> <a href="#" class="footer__link"> الرئيسية </a> </li>
+                                <li> <a href="#" class="footer__link"> عن غرس </a> </li>
+                                <li> <a href="#" class="footer__link"> فعاليات وأخبار </a> </li>
+                                <li> <a href="#" class="footer__link"> اتصل بنا </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="footer__col">
+                            <h3 class="footer_title">  روابط تهمك </h3>
+                            <ul class="ftLinks_list">
+                                <li> <a href="#" class="footer__link"> تطوع معنا الان </a> </li>
+                                <li> <a href="#" class="footer__link"> حاسبة الزكاة  </a> </li>
+                                <li> <a href="#" class="footer__link">  انشئ مشروعك الخاص </a> </li>
+                                <li> <a href="#" class="footer__link"> بوابة التبرع  </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer__col">
+                            <h3 class="footer_title"> تواصل معنا </h3>
+                            <div class="ftContact_wrap">
+                                <div class="contFT_flex">
+                                    <img src="img/call.svg" alt="" class="grCont_icon">
+                                    <h3 class="ftCont_title"> اتصل بنا الان </h3>
+                                </div>
+                                <a href="#" class="ftContUs_link"> 0808 808 2008 </a>
+                            </div>
+                            <div class="ftContact_wrap">
+                                <div class="contFT_flex">
+                                    <img src="img/sms.svg" alt="" class="grCont_icon">
+                                    <h3 class="ftCont_title"> ارسل عبر الرسائل النصية </h3>
+                                </div>
+                                <a href="#" class="ftContUs_link"> 0808 808 2008 </a>
+                            </div>
+                            <div class="ftContact_wrap">
+                                <div class="contFT_flex">
+                                    <img src="img/mail.svg" alt="" class="grCont_icon">
+                                    <h3 class="ftCont_title"> ارسل عبر البريد الالكتروني </h3>
+                                </div>
+                                <a href="#" class="ftContUs_link"> ghars@info.com </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="footer__col">
+                            <p class="footer__Des"> ادخل بريدك الالكتروني لدينا للاشتراك في منصة غرس ليصلك كل جديد عن اخر اخبارنا وفعالياتنا </p>
+                            <form action="" class="ftCont__form">
+                                <div class="ftForm_group">
+                                    <input type="email" class="ftForm_input" placeholder="البريد الالكتروني">
+                                    <button type="submit" class="ftForm_submit hvr-bounce-to-left"> اشتراك </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container pxLG-0 copyWr__flex">
+                <p class="rights_des"> جميع الحقوق محفوظة لدى بوابة غرس 2022© </p>
+                <div class="socialFt__wrapper">
+                    <a href="#" class="socilFT_link"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#" class="socilFT_link"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="socilFT_link"> <i class="fa-brands fa-twitter"></i> </a>
+                    <a href="#" class="socilFT_link"> <i class="fa-brands fa-facebook"></i> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- to top button-->
+    <a href="#" class="go-top" data-toggle="tooltip" title="" data-placement="left" data-original-title="go to top" >
+        <i class="fa-solid fa-caret-up"></i>
+    </a>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js" integrity="sha512-mlz/Fs1VtBou2TrUkGzX4VoGvybkD9nkeXWJm3rle0DPHssYYx4j+8kIS15T78ttGfmOjH0lLaBXGcShaVkdkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js" integrity="sha512-35O/v2b9y+gtxy3HK+G3Ah60g1hGfrxv67nL6CJ/T56easDKE2TAukzxW+/WOLqyGE7cBg0FR2KhiTJYs+FKrw==" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init(); 
+    </script>
+        <script>
+            var input = document.querySelector('#phone2');
+            var iti = window.intlTelInput(input, {
+                separateDialCode: true,
+                 utilsScript: 'js/utils.js'
+            })
+        </script>
+
+</body>
+
+</html>

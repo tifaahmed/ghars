@@ -1,0 +1,85 @@
+body{
+  direction: rtl;
+  text-align: right;
+}
+
+#burgerBtn {
+  left: 30px;
+}
+.go-top {
+  left: 10px;
+}
+
+@media(max-width: 991px) {
+
+}
+
+.abtSMll_img {
+  left: 0;
+}
+.about__thumb::after {
+  left: 10%;
+}
+
+.footer_title::after {
+  right: 0;
+}
+.dropdown__Firstmenu {
+  right: 0;
+}
+.abs__dollar {
+  left: 40px;
+}
+.nice-select {
+  text-align: right !important;
+}
+.innVForm_select.nice-select:after {
+  right: auto;
+  left: 40px;
+}
+.profileV__input.nice-select:after {
+  right: auto;
+  left: 16px;
+}
+.nice-select .option {
+  text-align: right !important;
+}
+.open__menu {
+  left: 0;
+}
+.absAD__label {
+  left: 23px;
+}
+.active__status {
+  left: 24px;
+}
+
+.oneSuccess_step:not(:first-of-type)::before {
+  right: 0;
+}
+.oneSuccess_step:not(:last-of-type)::after {
+  left: 0;
+}
+
+
+@media(max-width: 575px) {
+  .innVopen__menu, .profileopen__menu {
+    left: 0;
+  }
+}
+@media(min-width: 992px) {
+  .blueThumb__child {
+    left: 0;
+  }
+  .dropdown__Firstmenu.depth__second {
+    right: 103%;
+    transform-origin: right;
+  }
+  .nav-link.dropdown-toggle:hover::after{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+}

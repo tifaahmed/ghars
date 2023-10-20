@@ -1,0 +1,89 @@
+body{
+  direction: ltr;
+  text-align: left;
+}
+#burgerBtn {
+  right: 30px;
+}
+.go-top {
+  right: 10px;
+}
+
+@media(max-width: 991px) {
+
+}
+
+.header__img {
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+}
+
+.abtSMll_img {
+  right: 0;
+}
+.about__thumb::after {
+  right: 10%;
+}
+
+.footer_title::after {
+  left: 0;
+}
+.dropdown__Firstmenu {
+  left: 0;
+}
+.abs__dollar {
+  right: 40px;
+}
+.innVForm_select.nice-select:after {
+  right: 40px;
+}
+.profileV__input.nice-select:after {
+  right: 16px;
+}
+.open__menu {
+  right: 0;
+}
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
+  left: auto;
+  right: 0 !important;
+}
+.absAD__label {
+  right: 23px;
+}
+.active__status {
+  right: 24px;
+}
+
+
+.oneSuccess_step:not(:first-of-type)::before {
+  left: 0;
+}
+.oneSuccess_step:not(:last-of-type)::after {
+  right: 0;
+}
+
+@media(max-width: 575px) {
+  .innVopen__menu, .profileopen__menu {
+    right: 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .blueThumb__child {
+    right: 0;
+  }
+  .dropdown__Firstmenu.depth__second {
+    left: 103%;
+    transform-origin: left;
+  }
+  .nav-link.dropdown-toggle:hover::after{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+}
